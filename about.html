@@ -1,0 +1,129 @@
+<head>
+  <title>Homepage</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/ed1d31fac1.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
+  <style>
+    body {
+      background-color: #eee;
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #eee;
+    }
+
+    .container ul {
+      display: flex;
+
+    }
+
+    .container ul li {
+      overflow: hidden;
+      list-style: none;
+      margin: 5px;
+      height: 50px;
+      width: 50px;
+      background-color: #0A0708;
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 4px;
+      cursor: pointer;
+      position: relative;
+      z-index: 1;
+      transition: all 0.5s;
+
+    }
+
+    .container ul li span {
+      display: none;
+      font-size: 14px;
+      margin-left: 4px;
+      transition: all 4s;
+      transition-delay: 1s;
+    }
+
+    .container ul li:hover span {
+      display: block;
+    }
+
+
+
+    /* DEMO-SPECIFIC STYLES */
+    .typewriter h1 {
+      color: #000000;
+      vertical-align: middle;
+      font-family: monospace;
+      font-size: 16px;
+      overflow: hidden;
+      /* Ensures the content is not revealed until the animation */
+      border-right: .15em solid orange;
+      /* The typwriter cursor */
+      white-space: nowrap;
+      /* Keeps the content on a single line */
+      margin: 0 auto;
+      /* Gives that scrolling effect as the typing happens */
+      letter-spacing: .15em;
+      /* Adjust as needed */
+      animation:
+        typing 5s steps(100, end),
+        blink-caret .5s step-end 10;
+    }
+
+    /* The typing effect */
+    @keyframes typing {
+      from {
+        width: 0
+      }
+
+      to {
+        width: 100%
+      }
+    }
+
+    /* The typewriter cursor effect */
+    @keyframes blink-caret {
+
+      from,
+      to {
+        border-color: transparent
+      }
+
+      50% {
+        border-color: #4e2db4
+      }
+    }
+  </style>
+</head>
+<div class="main">
+  <div class="spacer" style="height:30%;"></div>
+  <center>
+    <div class="typewriter" style="width:70%;">
+      <center>
+        <h1>&nbsp;&nbsp;&nbsp;&nbsp;Welcome to Cirrus</h1>
+      </center>
+    </div>
+  
+
+  <div class="spacer" style="height:10;"></div>
+    <p style="width:80%;">Welcome to Cirrus, an Android-based browser focused on security & privacy. We don't collect or store ANY data (not even your history, for those of y'all with *questionable* online behavior). </p>
+    <p style="width:80%;">There's no terms and condtions or privacy policy to sign because franky, we don't care about that stuff. We don't use your data anyway. </p>
+</div> <!--old orange theme #ff8b3dff-->
+</center>
+
+<div class="spacer" style="height:100px;">
+</div>
+<div style="background-color:#4e2db4">
+  <center>
+    <h1 style="font-family:monospace;font-size:10px;color:white;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;copyright
+      2024 all rights reserved</h1>
+
+    <h1 style="font-family:monospace;font-size:10px;color:white;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;v1.0.1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="index.html" style="color:white;">back</a></h1>
+  </center>
+  
+</div>

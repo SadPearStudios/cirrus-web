@@ -1,0 +1,166 @@
+<head>
+  <title>Homepage</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/ed1d31fac1.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
+  <style>
+    body {
+      background-image: url('blue.png');
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+    }
+
+    .container ul {
+      display: flex;
+
+    }
+
+    .container ul li {
+      overflow: hidden;
+      list-style: none;
+      margin: 5px;
+      height: 50px;
+      width: 50px;
+      background-color: #0A0708;
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 4px;
+      cursor: pointer;
+      position: relative;
+      z-index: 1;
+      transition: all 0.5s;
+
+    }
+
+    .container ul li span {
+      display: none;
+      font-size: 14px;
+      margin-left: 4px;
+      transition: all 4s;
+      transition-delay: 1s;
+    }
+
+    .container ul li:hover span {
+      display: block;
+    }
+
+
+
+    /* DEMO-SPECIFIC STYLES */
+    .typewriter h1 {
+      color: #000000;
+      vertical-align: middle;
+      font-family: monospace;
+      font-size: 16px;
+      overflow: hidden;
+      /* Ensures the content is not revealed until the animation */
+      border-right: .15em solid #4e2db4;
+      /* The typwriter cursor */
+      white-space: nowrap;
+      /* Keeps the content on a single line */
+      margin: 0 auto;
+      /* Gives that scrolling effect as the typing happens */
+      letter-spacing: .15em;
+      /* Adjust as needed */
+      animation:
+        typing 5s steps(100, end),
+        blink-caret .5s step-end 10;
+    }
+
+    /* The typing effect */
+    @keyframes typing {
+      from {
+        width: 0
+      }
+
+      to {
+        width: 100%
+      }
+    }
+
+    /* The typewriter cursor effect */
+    @keyframes blink-caret {
+
+      from,
+      to {
+        border-color: transparent
+      }
+
+      50% {
+        border-color: #4e2db4
+      }
+    }
+  </style>
+</head>
+<div class="main">
+  <div class="spacer" style="height:30%;"></div>
+  <center>
+
+    <div class="glass1">
+    <div class="typewriter" style="width:70%;">
+      <center>
+        <h1>&nbsp;&nbsp;&nbsp;&nbsp;Welcome back</h1>
+      </center>
+    </div>
+      </div>
+  </center>
+
+  <div class="spacer" style="height:10%;"></div>
+  <div class="container">
+    <ul>
+      <li onclick="window.open('https://google.com', '_blank')"><i class='fa-brands fa-google'></i><span></span></li>
+      <li onclick="window.open('https://youtube.com', '_blank')"><i class='fa-brands fa-youtube'></i><span></span></li>
+      <li onclick="window.open('https://instagram.com', '_blank')"><i class='fa-brands fa-instagram'></i><span></span>
+      </li>
+      <li onclick="window.open('https://tiktok.com', '_blank')"><i class='fa-brands fa-tiktok'></i><span></span></li>
+      <li onclick="window.open('https://discord.app', '_blank')"><i class='fa-brands fa-discord'></i><span></span></li>
+      <li onclick="window.open('https://snapchat.com', '_blank')"><i class='fa-brands fa-snapchat'></i><span></span>
+      </li>
+      <li onclick="window.open('https://spotify.com', '_blank')"><i class='fa-brands fa-spotify'></i><span></span></li>
+      <li onclick="window.open('https://music.apple.com', '_blank')"><i class='fa-solid fa-music'></i><span></span></li>
+      <li onclick="window.open('https://twitter.com', '_blank')"><i class='fa-brands fa-x-twitter'></i><span></span>
+      </li>
+      <li onclick="window.open('https://twitch.com', '_blank')"><i class='fa-brands fa-twitch'></i><span></span></li>
+    </ul>
+  </div>
+</div> <!--old orange theme #ff8b3dff-->
+
+<div class="spacer" style="height:10px;">
+
+</div>
+<!--
+<div class="container h-80">
+  <div class="d-flex justify-content-center h-100">
+    <div class="search">
+      <input class="search_input" id="search_input" type="text" name="" placeholder="Search here...">
+      <a href="#" class="search_icon"
+        onclick="window.open('https://www.google.com/search?q='+search_input.value, '_blank')"><i
+          class="fa fa-search"></i></a>
+    </div>
+  </div>
+</div>
+this whole site is garbage i slapped together in 10 minutes and am honestly just too lazy to fix-->
+
+<div class="spacer" style="height:40%;">
+</div>
+<div style="background-color:#4e2db4">
+  <center>
+    <h1 style="font-family:monospace;font-size:10px;color:white;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;copyright
+      2024 all rights reserved</h1>
+
+    <h1 style="font-family:monospace;font-size:10px;color:white;">
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;v1.0.1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="about.html"
+        style="color:white;">about</a></h1>
+  </center>
+
+</div>
